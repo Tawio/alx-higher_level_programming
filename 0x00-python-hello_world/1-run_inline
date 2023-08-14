@@ -1,4 +1,2 @@
 #!/bin/bash
-python3 <<< $PYCODE
-#this is called run inline
-#we can also type it as #python3 -c $PYCODE
+echo python3 <<< $PYCODE
